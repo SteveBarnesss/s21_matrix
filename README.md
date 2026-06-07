@@ -64,11 +64,11 @@ int s21_inverse_matrix(matrix_t *A, matrix_t *result);
 
 ```
 src/
- ├── s21_matrix.h
- ├── s21_matrix.c
- ├── s21_helpers.c
+ ├── s21_matrix.h        # заголовочный файл библиотеки
+ ├── matrix/             # реализация функций библиотеки (.c файлы)
+ │    ├── ...            
  ├── tests/
- │    └── test_matrix.c
+ │    └── test_matrix.c  # unit-тесты
  ├── Makefile
 ```
 
